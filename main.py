@@ -322,7 +322,7 @@ def sum_avg3(arr, avg=False):
     if type(arr) != type(np.empty(0, dtype="int")):
         raise TypeError('array must be a Numpy integer array')
     elif type(avg) != bool:
-        raise TypeError('parameter min must be Boolean')
+        raise TypeError('parameter avg must be Boolean')
     else:
         for n in arr:
             answer += n
@@ -343,7 +343,7 @@ try:
 except TypeError as e:
     print(e)
 
-# now try it with a float instead of a boolean for min
+# now try it with a float instead of a boolean for avg
 n = 1.234
 try:
     print("This is the average: ", sum_avg3(rnums, n))

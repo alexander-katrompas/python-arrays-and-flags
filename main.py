@@ -311,7 +311,7 @@ print("This is the average: ", sum_avg2(rnums, True))
 In the fucntions above there is no error checking for passed in values.
 This would not be acceptable in ANY professional code. It is ALWAYS
 your responsibility to check for errors in data and data types.
-This demonstrates a complete, professional version of the min_max function.
+The following demonstrates a complete, professional version of sum_avg.
 This will also demonstrate the correct usage of the Try/Except statement.
 """
 
